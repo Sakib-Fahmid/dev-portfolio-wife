@@ -40,3 +40,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.shadow-box{
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+.lowest-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp-latest{
+    border-left:10px solid;
+    border-image: linear-gradient(violet,cyan);
+    border-image-slice: 1;
+}
+#exp-old{
+    border-left:10px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
